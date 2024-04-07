@@ -1,0 +1,67 @@
+/*ESTILO GLOBAL*/
+*{
+    margin: 0; /*Zera a Margem*/
+    padding: 0; /*Zera o Preenchimento*/
+    box-sizing: border-box; /*Todos os Elementos sem estourar a Tela*/
+}
+
+/*FUNDO DA PÁGINA*/
+body{
+    background-color: #eaeaea; /*Cor de Fundo Branco*/
+    max-width: 100vw; /*Largura Máxima  da Viewport*/
+    min-height: 100vh;  /*Altura mínima da Viewport*/
+    display: flex; /*Flexbox*/
+    justify-content: center; /*Alinha ao Centro no Eixo Principal*/
+    align-items: center; /*Alinha ao Centro no Eixo Horizontal*/
+}
+
+/*CONTEÚDO PRINCIPAL*/
+main section{
+    display: flex; /*Flexbox*/
+    flex-direction: column; /*Alinha em Colunas*/
+    gap: 24px; /*Espaçamento de 24px*/
+}
+
+/*TODOS OS BOTÕES*/
+#dark, #light{
+    font-family: "Roboto Condensed", sans-serif; /*Fonte do Google*/
+    font-size: 1.15em; /*Tamanho da Fonte em 115%*/
+    color: #111; /*Cor do Texto Cinza Escuro*/
+    border: none; /*Tira a Borda*/
+    border-radius: 4px; /*Arredonda a Borda*/
+    width: 160px; /*Largura de 160px*/
+    height: 40px; /*Altura de 40px*/
+}
+
+/*TODOS AOS BOTÕES AO PASSAR O MOUSE*/
+#dark:hover, #light:hover{
+    cursor: pointer; /*Mãozinha ao passar o mouse*/
+    transform: scale(1.02); /*Aumenta em 2% o tamanho do botão*/
+}
+
+/*BOTÃO TEMA LIGHT*/
+#light{
+    background-color: #85ca70; /*Cor do Botão Verde Claro*/
+}
+
+/*BOTÃO TEMA DARK*/
+#dark{
+    background-color: #83c9c2; /*Cor de Fundo  Azul Claro*/
+}
+
+/*DARK MODE*/
+.dark-mode {
+    background-color: #001016; /*Cor de Fundo - Azul Escuro*/
+}
+
+/*DARK MODE - BOTÃO DARK*/
+.dark-mode #dark {
+    background-color: #125d5f; /*Cor de Fundo - Azul Escuro*/
+    color: #cacaca; /*Cor da Letra - Cinza Claro*/
+}
+
+/*DARK MODE - BOTÃO LIGHT*/
+.dark-mode #light {
+    background-color: #467237; /*Cor de Fundo - Verde Escuro*/
+    color: #cacaca; /*Cor da Letra - Cinza Claro*/
+}
