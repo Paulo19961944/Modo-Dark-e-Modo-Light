@@ -9,7 +9,7 @@ O Objetivo desse projeto é mostrar a quem é iniciante como faz essa troca de T
 Quando clica no botão do tema claro ele remove essa classe, isso é uma boa prática pois gera uma separação de responsabilidades, deixando o código ligeiramente mais leve, e também com menos linhas de código. Pois o CSS cuida da Formatação, e o JavaScript cuida da lógica também
 
 # LINK DO YOUTUBE
------(Em Breve)-----
+[Como fazer tema escuro com JavaScript do Zero](https://www.youtube.com/watch?v=B5AOdC30hpA)
 
 # LINK DO PROJETO
 [https://paulo19961944.github.io/Modo-Dark-e-Modo-Light/](https://paulo19961944.github.io/Modo-Dark-e-Modo-Light/)
